@@ -1,0 +1,207 @@
+@charset "UTF-8";
+
+body {
+    background-color: rgb(39, 39, 39);
+}
+
+h1{
+
+    color: white; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: left;
+    font-size: 50px;
+    border-style: solid;
+    border-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    margin-right: 70%;
+    text-shadow: 7px 7px black;
+    padding-left: 15px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.text_info{
+
+    font-size: 13px;
+    transform: scale(1);
+    transition: 1s;
+    color: rgb(219, 219, 219);
+    
+}
+
+
+.text_info:hover{
+    
+    color: white;
+    transition: 2s;
+    text-shadow: 2px 2px black;
+    cursor: default;
+    background-color: rgb(37, 37, 37);
+    padding-left: 1cm;
+    border-radius: 10px;
+    
+}
+
+
+p{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.podpah{
+    width: 200px;
+    height: 200px;
+    display: block;
+    border-radius: 120px;
+    padding-left: 5px;
+    transition: 0.5s;
+    transform: scale(1);
+}
+
+
+.podpah:hover{
+
+    transform: scale(0.9);
+    transition: 1s;
+    
+}
+
+
+
+.spotify{
+    width: 70px;
+    height: 70px;
+    display: block;
+    border-radius: 120px;
+    transition: 0.5s;
+    transform: scale(1);
+    
+
+}
+
+.spotify:hover{
+
+    transform: scale(1.2) ;
+    transition: 1s;
+}
+
+
+.youtube{
+    width: 70px;
+    height: 70px;
+    display: block;
+    border-radius: 120px;
+    margin-bottom: 0.5cm;
+    position: relative;
+    transform: scale(1);
+    transition: 0.5s;
+}
+
+.youtube:hover{
+
+    transform: scale(1.2) ;
+    transition: 1s;
+
+}
+
+
+
+.podcast_2:hover,.podcast_3:hover{
+    transform: scale(1.5) translatex(1cm) translateY(-0.7cm); 
+    transition: 2s;
+    border: 2cm;
+    border-radius: 4px;
+    box-shadow: black 3px 0px;
+    filter: saturate(1.2);
+    filter: contrast(1.3);
+    
+}
+
+
+
+
+.podcast_3:hover{
+
+    transform: translatex(-1cm) translateY(1cm) scale(1.5);
+    
+}
+
+
+
+
+
+iframe{
+    display: block;
+    padding-left: 20px;
+}   
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+
+.podcast_2{
+    height: 150px;
+    width: 260px;
+    margin-left: 0.5cm;
+    transform: scale(1);
+    transition: 0.5s;
+
+}
+
+.podcast_3{
+    height: 150px;
+    width: 260px;
+    margin-top: 0.2cm;
+    margin-left: 0.5cm;
+    transform: scale(1);
+    transition: 0.5s;
+    
+}
+
+.container_1{
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: flex-end;
+}
+
+.container_2{
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+
+.flow{
+
+    display: block;
+    margin-left: 120%;
+    margin-right: 120%;
+}
+
+.recomendados{
+
+    display: flex;
+    flex-direction: row;
+}
+
+    
+.recomendados_info{
+
+    display: flex;
+    flex-direction: row;
+}
+
+
+.container_3{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 2cm;
+    
+}
+
